@@ -29,7 +29,7 @@ class Movie {
     let MenoHerca = Najdlhsie.reduce(function (a, b) {
       return a.length > b.length ? a : b;
     });
-    console.log("Toto je najdlhšie meno herca v tomto filme je: " + MenoHerca);
+    console.log("Toto je najdlhšie meno herca v tomto filme: " + MenoHerca);
   };
 }
 
